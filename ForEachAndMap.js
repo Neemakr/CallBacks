@@ -9,3 +9,19 @@ console.log(arr);
 let arr2 = arr.map(function(value){
     console.log(value * 2);
 })
+
+const a = [
+    {
+        name : "Lime",
+        age : 45
+    },
+    {
+        name : "King",
+        age : 88
+    }
+
+];
+const a1 = a.filter(function(e, index, array){
+    return e.age > 50  ;
+})
+console.log(a1)
